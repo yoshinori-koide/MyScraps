@@ -4,7 +4,7 @@
 
 		entry: './src_js/app.litcoffee'
 		output:
-			filename: './js/main.js'
+			filename: './js/MyScraps.js'
 		devtool: 'inline-source-map'
 		module:
 			loaders: [
