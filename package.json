@@ -1,5 +1,73 @@
 {
-  "name"    : "MyScraps",
-  "version" : "0.1.0",
-  "main"    : "main.js"
+  "name": "myscrap",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.0",
+  "author": "yoshinori koide",
+  "bugs": {
+    "url": "https://github.com/yoshinori-koide/MyScraps/issues"
+  },
+  "dependencies": {
+    "flux": "^2.0.3",
+    "keymirror": "~0.1.0",
+    "object-assign": "^1.0.0",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "cjsx-loader": "^1.3.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-react": "^3.2.0",
+    "coffee-react-transform": "^3.1.0",
+    "coffee-script": "*",
+    "grunt": "~0.4.5",
+    "grunt-coffee-react": "^2.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-webpack": "~1.0.3",
+    "jest-cli": "^0.4.0",
+    "lodash": "^3.8.0",
+    "webpack": "^1.8.11"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "homepage": "http://yoshinori-koide.github.io/MyScraps/",
+  "jest": {
+    "rootDir": "./js",
+    "scriptPreprocessor": "./test/preprocessor.js",
+    "testFileExtensions": [
+      "coffee",
+      "litcoffee",
+      "coffee.md",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "coffee",
+      "litcoffee",
+      "coffee.md",
+      "js"
+    ],
+    "unmockedModulePathPatterns": [
+      "./node_modules/react"
+    ]
+  },
+  "keywords": [
+    "cjsx",
+    "coffeescript",
+    "flux",
+    "react",
+    "react-tools"
+  ],
+  "license": "ASF2.0",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoshinori-koide/MyScraps.git"
+  },
+  "scripts": {
+    "test": "jest"
+  }
 }
